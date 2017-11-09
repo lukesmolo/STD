@@ -1,11 +1,11 @@
-#STD: Spaceship Tower Defense.
+# STD: Spaceship Tower Defense.
 
 STD is a version in the space of the famous game Tower Defense.<br>
 There is a grid in which you can put spaceships to defense your land. Waves of
 asteroids come to attack you, so you need to install a big defense in order to
 keep the game going.
 
-##How it works
+## How it works
 Each spaceship automatically shots from the left to right, but in case a
 well-known number of asteroids are on the same line behind the spaceship, this
 starts to shot from right to the left.
@@ -33,7 +33,7 @@ Every wave has a bigger number of asteroids, so make sure you have a great
 defense!
 
 
-##Keys for playing
+## Keys for playing
 * _p_: Game in pause
 * _h_: Show help page
 * _a_: Launch a new wave of asteroids
@@ -42,16 +42,16 @@ defense!
 * _e_: Select spaceship _BLOOD_
 * _mouse left-key_: put a ship inside a cell
 
-##Requirements
+## Requirements
 * Linux distribution
 * GLUT is required for the GUI
 
-##GUI
+## GUI
 A very basic GUI is used for the game. Thanks to [Guillaume
 Perez](http://www.i3s.unice.fr/~gperez/) for his GLUT based library.
 
 
-##Usage
+## Usage
 Clone the repository:
 ```
 $ git clone --recursive git@github.com:lukesmolo/STD.git
@@ -67,18 +67,18 @@ $ make clean
 $ make
 ```
 
-##Credits
+## Credits
 __libEngine.a__, the GLUT based library used in this project for GUI, was written
 by [Guillaume Perez](http://www.i3s.unice.fr/~gperez/).
 <br>
 [Here](https://github.com/memo-p/libGraph) his project.
 
-##License
+## License
 STD is released under the GPLv2 license.
 
 
 
-##TODO
+## TODO
 * improve asteroids
 
 
